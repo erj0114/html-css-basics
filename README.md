@@ -30,3 +30,12 @@ Some basic HTML tags their meaning and usage
 </html>
 ```
 # CSS
+
+# Important Programs
+  - GIMP
+  - Visial Studio Code
+  - Wordpress
+  - Wamp 
+  - Gitgui
+  - Godaddy
+  - phpmyadmin
