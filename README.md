@@ -27,7 +27,7 @@ Some basic HTML tags their meaning and usage
 <body>
     A very basic web page so far...
 </body>
-</html>
+</html>  
 ```
 # CSS
 
