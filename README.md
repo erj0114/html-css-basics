@@ -27,6 +27,25 @@ Some basic HTML tags their meaning and usage
 <body>
     A very basic web page so far...
 </body>
-</html>
+</html>  
 ```
 # CSS
+
+# Important Programs
+  - GIMP
+  - Visial Studio Code
+  - Wordpress
+  - Wamp 
+  - Gitgui
+  - Godaddy
+  - phpmyadmin
+
+# Keyboard shortcuts
+- ctrl+c copy
+- ctrl+v paste
+- ctrl+z undo
+- ctrl+y redo
+- ctrl+s save
+
+- winkey+e file explorer
+- winkey+d view desktop
