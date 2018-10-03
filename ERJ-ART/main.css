@@ -1,0 +1,38 @@
+.painting-image {
+	box-shadow: black 0px 0px 8px 1px;
+	width: 360px;
+	
+}
+.entry-title {
+	font-size: 26px !important;
+}
+.Painting-title {
+	text-align: center;
+}
+.Painting-Price {
+	display: block;
+	margin-bottom: 100px;
+}
+.site-description{
+	font-weight: bold;
+	opacity: 1 !important;
+	font-size: 22px;
+	
+}
+
+.site-content-contain {
+	background: #bcd8e5;
+}
+.navigation-top, #top-menu {
+	background: hsl(199, 72%, 69%) !important;
+}
+.navigation-top .current-menu-item > a, .colors-custom .navigation-top .current_page_item > a, .colors-custom .main-navigation a:hover, .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+	color: black;
+}
+.imprint {
+	display: none;
+}
+
+body {
+    background: #bcd8e5;
+}
