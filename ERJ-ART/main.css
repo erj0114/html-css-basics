@@ -3,11 +3,11 @@
 	width: 360px;
 	margin-bottom: 20px;	
 }
-.Painting-title {
+.painting-title {
 	text-align: center;
 	color: white;
 }
-.Painting-Price {
+.painting-price {
 	display: block;
 	margin-bottom: 100px;
 }
@@ -20,7 +20,7 @@ h2 {
 	color: whitesmoke;
 }
 .banner-image , .banner-image-common{
-	background-image: url("images/16x20/tropical-breeze.jpg");
+	background-image: url("images/16x20/tropicalbreeze.JPG");
 	color: whitesmoke;
 	background-position-y: -740px;
 	height: 200px;
@@ -42,7 +42,12 @@ nav a:hover
 {
 	color: rgb(228, 35, 35);
 }
-
+.dropdown-menu {
+	background: #fdb735
+}
+.dropdown-item {
+	font-size: 20px;
+}
 .content-row:not(:last-child) {
 	margin-bottom: 20px;
 	border-bottom: 2px solid #adcbd952;
