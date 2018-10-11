@@ -1,20 +1,22 @@
 
-let baseUrl = "http://localhost/html-css-basics/ERJ-ART/";
-document.write("<base href='" + baseUrl + "' />");
+let localurl = "http://192.168.0.103/html-css-basics/ERJ-ART/";
+let produrl = "/";
+let currenturl=produrl;
+document.write("<base href='" + currenturl + "' />");
 
 
 
 function ready(){
     let nav = document.getElementById("nav")
-    getContent(baseUrl+"nav.html", nav);
+    getContent(currenturl+"nav.html", nav);
 
     let header = document.getElementById("header")
     if(header) {
-        getContent(baseUrl+"header.html", header);    
+        getContent(currenturl+"header.html", header);    
     }
     let footer = document.getElementById("footer")
     if(footer) {
-        getContent(baseUrl+"footer.html", footer);    
+        getContent(currenturl+"footer.html", footer);    
     }
 }
 document.addEventListener("DOMContentLoaded", ready)

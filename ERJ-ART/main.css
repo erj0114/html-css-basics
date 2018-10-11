@@ -2,6 +2,7 @@
 	box-shadow: black 0px 0px 8px 1px;
 	width: 360px;
 	margin-bottom: 20px;	
+	max-width: 100%;
 }
 .painting-title {
 	text-align: center;
@@ -21,6 +22,7 @@ h2 {
 }
 .banner-image , .banner-image-common{
 	background-image: url("images/16x20/tropicalbreeze.JPG");
+	background-size: cover;
 	color: whitesmoke;
 	background-position-y: -740px;
 	height: 200px;
@@ -29,6 +31,11 @@ h2 {
 .banner-image{
 	height: 100vh;
 	padding-top: 85vh;
+}
+@media only screen and (max-width: 600px) {
+	.banner-image {
+		padding-top: 65vh;
+	}
 }
 nav {
 	background: #3c0a9d80;
