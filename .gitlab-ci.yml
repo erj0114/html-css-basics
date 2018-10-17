@@ -4,4 +4,4 @@ stages:
 job 1:
   stage: deploy
   script: 
-    - cp -r ./ /var/www/html/
+    - cp -r ./ERJ-ART/* /var/www/html/
