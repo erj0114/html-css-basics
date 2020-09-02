@@ -1,0 +1,12 @@
+{
+  "name": "erj-art",
+  "version": "1.0.0",
+  "description": "My Art Website",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "python -m SimpleHTTPServer"
+  },
+  "author": "Eric Johnson",
+  "license": "ISC"
+}
